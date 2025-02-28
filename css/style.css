@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #8B0000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#menu {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Mobile Menu Styles */
+#menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Menu Items for Mobile */
+@media screen and (max-width: 768px) {
+    #menu-toggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav ul {
+        display: none; /* Hide menu items by default */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    nav ul.active {
+        display: flex; /* Show menu items when active */
+    }
+
+    nav ul li {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

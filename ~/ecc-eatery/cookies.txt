@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.www.exquisitecateringcuisine.com	TRUE	/	FALSE	1999999999	__cf_bm	qfggMNzniU7bO8wwq7Yw0DF1Ve47M_lZREPTnTH3T_4-1740758494-1.0.1.1-a3cPzeb0tTBvxhmJL9cNV0lZhMhL0Zy4TlEjGNWq2eivTAQFAZFsmJIc4Bd93MAW91yTc79WJmiG8GuD85BcQBbqlnkvCXWqy09bRgRAimA
+www.exquisitecateringcuisine.com	TRUE	/	FALSE	1999999999	SameSite	None
+
