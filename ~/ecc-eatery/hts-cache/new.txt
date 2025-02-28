@@ -1,3 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-11:01:34	5188/5188	---MCZ	403	error ('Forbidden')	text/html	date:Fri,%2028%20Feb%202025%2016:01:34%20GMT	https://www.exquisitecateringcuisine.com/robots.txt		(from )
-11:01:34	7734/7734	---MCZ	403	error ('Forbidden')	text/html	date:Fri,%2028%20Feb%202025%2016:01:34%20GMT	https://www.exquisitecateringcuisine.com/	~/ecc-eatery/www.exquisitecateringcuisine.com/index.html	(from )
